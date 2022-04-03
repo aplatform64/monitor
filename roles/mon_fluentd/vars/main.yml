@@ -27,7 +27,7 @@ mon_fluentd_os_family: "
   -%}
     {{ 'Debian' }}
   {%- else -%}
-    {{ 'Linux' }}
+    {{ 'NotSupported' }}
   {%- endif -%}
   "
 
