@@ -12,7 +12,7 @@ tags:
   - "system"
   - "monitoring"
 dependencies:
-  serdigital64.core: "*"
+  serdigital64.system: "*"
 repository: "https://github.com/serdigital64/aplatform64"
 homepage: "https://github.com/serdigital64/aplatform64"
 issues: "https://github.com/serdigital64/aplatform64/issues"
