@@ -1,7 +1,7 @@
 ---
 namespace: "serdigital64"
 name: "monitor"
-version: "1.0.2"
+version: "1.0.3"
 readme: "README.md"
 authors:
   - "SerDigital64 <https://github.com/serdigital64>"
@@ -12,7 +12,7 @@ tags:
   - "system"
   - "monitoring"
 dependencies:
-  serdigital64.core: "*"
+  serdigital64.system: "*"
 repository: "https://github.com/serdigital64/aplatform64"
 homepage: "https://github.com/serdigital64/aplatform64"
 issues: "https://github.com/serdigital64/aplatform64/issues"
