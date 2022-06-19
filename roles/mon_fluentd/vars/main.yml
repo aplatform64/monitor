@@ -11,6 +11,7 @@ mon_fluentd_platforms:
   # - "Ubuntu22" # incompatible
   - "Fedora33"
   - "Fedora35"
+  - "Fedora36"
   - "Debian10"
   - "Debian11"
 
