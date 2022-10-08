@@ -6,6 +6,7 @@ mon_fluentd_platforms:
   - "AlmaLinux8"
   - "Rocky8"
   - "OracleLinux8"
+  - "OracleLinux9"
   - "Ubuntu20"
   - "Ubuntu21"
   # - "Ubuntu22" # incompatible
@@ -16,7 +17,7 @@ mon_fluentd_platforms:
   - "Debian11"
 
 # Group Linux Distributions by family
-mon_fluentd_os_family: "
+mon_fluentd_os_family: |
   {%- if
       ( ansible_distribution == 'CentOS' ) or
       ( ansible_distribution == 'RedHat' ) or
@@ -37,7 +38,6 @@ mon_fluentd_os_family: "
   {%- else -%}
     {{ 'NotSupported' }}
   {%- endif -%}
-  "
 
 # Multiplatform packages
 mon_fluentd_profiles_common:
