@@ -17,7 +17,7 @@ mon_fluentd_platforms:
   - "Debian11"
 
 # Group Linux Distributions by family
-mon_fluentd_os_family: |
+mon_fluentd_os_family: >-
   {%- if
       ( ansible_distribution == 'CentOS' ) or
       ( ansible_distribution == 'RedHat' ) or
